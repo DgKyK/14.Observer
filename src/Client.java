@@ -1,10 +1,8 @@
 public class Client implements User {
     private String name;
-    private MobilFare myFare;
 
-    public Client(String name, MobilFare fare) {
+    public Client(String name) {
         this.name = name;
-        this.myFare = fare;
     }
 
     @Override
